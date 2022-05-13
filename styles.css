@@ -19,13 +19,13 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10%;
-    padding-bottom: 11%;
+    padding-top: 2%;
+    padding-bottom: 22%;
     
 }
 
 .botones-sec{
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
@@ -39,11 +39,17 @@ a{
 
 .buscador{
     border: 1px solid black;
-    border-radius: 10px;
-    padding: 5px;
-    padding: 5px 20px;
+    border-radius: 30px;
+
+    padding: 10px 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
-input{
+button{
+    padding: 10px;
+    border-radius: 10px;
     border: none;
+    margin-right: 10px;
 }
